@@ -1,0 +1,140 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF0E0;
+    font-family: sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vh 6vh;
+}
+
+.header .navbar-brand .navbar-brand-logo {
+    height: 40px;
+}
+
+.header .navbar-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .navbar-items .navbar-item {
+    padding: 2vh 5vh;
+    font-size: 18px;
+    color: #6c6b6b;
+    cursor: pointer;
+}
+
+.header .navbar-buttons {
+    display: flex;
+}
+
+.header .navbar-buttons .navbar-button {
+    font-size: 18px;
+    padding: 2vh 4vh;
+}
+
+.header .navbar-buttons .sign-in {
+    color: #6c6b6b;
+    background-color: transparent;
+    border: none;
+}
+
+.header .navbar-buttons .try-for-free {
+    color: #ffffffe9;
+    font-weight: 600;
+    background-color: #094009;
+    border: none;
+    border-radius: 5px;
+}
+
+.contents {
+    display: flex;
+}
+
+.contents .left-content-items {
+    display: flex;
+    flex-direction: column;
+    padding: 15vh 7vh;
+    width: 60%;
+}
+
+.contents .right-content-items {
+    width: 40%;
+}
+
+.contents .left-content-items .left-content-item .heading {
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 100px;
+}
+
+.contents .left-content-items .left-content-item .line-1 {
+    color: #3a3a3a
+}
+
+.contents .left-content-items .left-content-item .line-2 {
+    color: #ffbd18;
+}
+
+.contents .left-content-items .left-content-item .description {
+    display: flex;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 1.5vh 0.25vh;
+    color: #6c6b6b;
+}
+
+.contents .left-content-items .left-content-item .try-for-free {
+    font-size: 18px;
+    padding: 2vh 4vh;
+    color: #ffffffe9;
+    font-weight: 600;
+    background-color: #094009;
+    border: none;
+    border-radius: 5px;
+}
+
+.review-icons {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.review-icon {
+    padding-left: 1.5vh;
+    width: 30px;
+    height: 30px;
+}
+
+.right-content-items {
+    padding: 12vh 7vh;
+}
+
+.right-content-items .right-content-item {
+    height: 500px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .line-1 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #6c6b6b;
+}
+
+.footer .line-2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-top: 3vh;
+}
+
+.footer .line-2 .footer-icon {
+    padding: 0vh 5vh;
+}
